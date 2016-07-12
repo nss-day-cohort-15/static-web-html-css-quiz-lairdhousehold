@@ -1,0 +1,48 @@
+.salescard 		{ 
+							display: inline-block;
+							width: 30%;
+							margin: 1%;
+							padding: 1px;
+							border: 1px solid lightblue;
+			 				}
+
+.scheader 		{ 
+							height: 80px;
+							display: block;
+							border-style: dotted;
+							border-color: lightgrey;
+							border-width: 1px;
+							padding-bottom: 15px;
+							text-align: center;
+		    			font-size: 125%;
+							}
+#pic	        { text-align: center;
+ 						   ;
+		  	
+		 					}   
+.description 	{ 
+
+							font-weight: bold;
+							text-align: justify;
+							font-size: 60%;
+              }
+.availability { 
+								background: grey;
+								color:yellow;
+								text-align: left; 
+							}
+.spechead    	{
+	       				
+	       				font-size: 125%;
+	       			}
+.specs				{ 
+								font-size: 75%;
+							}
+.size       	{ 
+								text-align: justify; 
+							}
+.weight     	{ text-align: justify; }
+.foot		    	{
+								text-align: justify;
+								font-size: 65%;
+.pricing      { font-weight: bold; font-size: 75%}
