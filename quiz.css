@@ -1,32 +1,34 @@
 .salescard 		{ 
 							display: inline-block;
 							width: 30%;
-							margin: 1%;
-							padding: 1px;
+							margin: 1px;
+							padding: 1%;
 							border: 1px solid lightblue;
+							min-height: 65%
+			 				
 			 				}
 
 .scheader 		{ 
+							
 							height: 80px;
-							display: block;
 							border-style: dotted;
 							border-color: lightgrey;
 							border-width: 1px;
 							padding-bottom: 15px;
 							text-align: center;
-		    			font-size: 125%;
+		    				font-size: 125%;
 							}
-#pic	        { text-align: center;
- 						   ;
-		  	
+.pic	        {           text-align:center;
+		  	  
 		 					}   
 .description 	{ 
-
+							border: 0:#fff;
 							font-weight: bold;
 							text-align: justify;
-							font-size: 60%;
+							font-size: 50%;
+							max-height: 74px;
               }
-.availability { 
+.availability { 				border: 0:#fff;
 								background: grey;
 								color:yellow;
 								text-align: left; 
@@ -38,11 +40,12 @@
 .specs				{ 
 								font-size: 75%;
 							}
-.size       	{ 
+.spec-item      	{ 
 								text-align: justify; 
 							}
-.weight     	{ text-align: justify; }
+
 .foot		    	{
 								text-align: justify;
-								font-size: 65%;
+								font-size: 65%;}
+
 .pricing      { font-weight: bold; font-size: 75%}
