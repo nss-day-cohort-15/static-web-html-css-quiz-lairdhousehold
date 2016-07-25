@@ -1,0 +1,58 @@
+.salescard{
+display: inline-block;
+width: 30%;
+margin: 1px;
+padding: 1%;
+border: 1px solid lightblue;
+min-height: 65%;
+}
+
+.scheader {
+
+height: 80px;
+border-style: dotted;
+border-color: lightgrey;
+border-width: 1px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 125%;
+}
+.pic	{
+
+text-align:center;
+
+}
+.description{
+
+font-weight: bold;
+text-align: justify;
+font-size: 50%;
+max-height: 74px;
+}
+.availability {
+background: grey;
+color:yellow;
+text-align: left;
+}
+.spechead{
+
+font-size: 125%;
+}
+.specs{
+font-size: 75%;
+}
+.spec-item{
+text-align:center;
+}
+
+.foot{
+text-align: justify;
+font-size: 65%;
+}
+
+.pricing{
+font-weight: bold; font-size: 75%;
+}
+.displayed {
+height: 60px; width: 60px;
+}
